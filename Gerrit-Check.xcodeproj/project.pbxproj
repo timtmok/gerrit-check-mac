@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF096DE01EE20A1E00785AA6 /* ReviewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF096DDF1EE20A1E00785AA6 /* ReviewType.swift */; };
+		AFD328A21EDF047D000ADC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328A11EDF047D000ADC7F /* AppDelegate.swift */; };
+		AFD328A41EDF047D000ADC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328A31EDF047D000ADC7F /* ViewController.swift */; };
+		AFD328A61EDF047D000ADC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD328A51EDF047D000ADC7F /* Assets.xcassets */; };
+		AFD328A91EDF047D000ADC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD328A71EDF047D000ADC7F /* Main.storyboard */; };
+		AFD328B41EDF047D000ADC7F /* Gerrit_CheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328B31EDF047D000ADC7F /* Gerrit_CheckTests.swift */; };
+		AFD328BF1EDF047D000ADC7F /* Gerrit_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328BE1EDF047D000ADC7F /* Gerrit_CheckUITests.swift */; };
+		AFD328CE1EDF11B9000ADC7F /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328CC1EDF11B9000ADC7F /* ReviewsViewController.swift */; };
+		AFD328CF1EDF11B9000ADC7F /* ReviewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD328CD1EDF11B9000ADC7F /* ReviewsViewController.xib */; };
+		AFD328D11EDF49A9000ADC7F /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328D01EDF49A9000ADC7F /* EventMonitor.swift */; };
+		AFD328D31EDF520D000ADC7F /* ReviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD328D21EDF520D000ADC7F /* ReviewsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD328B01EDF047D000ADC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD328961EDF047D000ADC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD3289D1EDF047D000ADC7F;
+			remoteInfo = "Gerrit-Check";
+		};
+		AFD328BB1EDF047D000ADC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD328961EDF047D000ADC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD3289D1EDF047D000ADC7F;
+			remoteInfo = "Gerrit-Check";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF096DDF1EE20A1E00785AA6 /* ReviewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewType.swift; sourceTree = "<group>"; };
+		AFD3289E1EDF047D000ADC7F /* Gerrit-Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gerrit-Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD328A11EDF047D000ADC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD328A31EDF047D000ADC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFD328A51EDF047D000ADC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD328A81EDF047D000ADC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFD328AA1EDF047D000ADC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD328AF1EDF047D000ADC7F /* Gerrit-CheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gerrit-CheckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD328B31EDF047D000ADC7F /* Gerrit_CheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerrit_CheckTests.swift; sourceTree = "<group>"; };
+		AFD328B51EDF047D000ADC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD328BA1EDF047D000ADC7F /* Gerrit-CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gerrit-CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD328BE1EDF047D000ADC7F /* Gerrit_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerrit_CheckUITests.swift; sourceTree = "<group>"; };
+		AFD328C01EDF047D000ADC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD328CC1EDF11B9000ADC7F /* ReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewsViewController.swift; path = Reviews/ReviewsViewController.swift; sourceTree = "<group>"; };
+		AFD328CD1EDF11B9000ADC7F /* ReviewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReviewsViewController.xib; path = Reviews/ReviewsViewController.xib; sourceTree = "<group>"; };
+		AFD328D01EDF49A9000ADC7F /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		AFD328D21EDF520D000ADC7F /* ReviewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD3289B1EDF047D000ADC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD328AC1EDF047D000ADC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD328B71EDF047D000ADC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD328951EDF047D000ADC7F = {
+			isa = PBXGroup;
+			children = (
+				AFD328A01EDF047D000ADC7F /* Gerrit-Check */,
+				AFD328B21EDF047D000ADC7F /* Gerrit-CheckTests */,
+				AFD328BD1EDF047D000ADC7F /* Gerrit-CheckUITests */,
+				AFD3289F1EDF047D000ADC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD3289F1EDF047D000ADC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD3289E1EDF047D000ADC7F /* Gerrit-Check.app */,
+				AFD328AF1EDF047D000ADC7F /* Gerrit-CheckTests.xctest */,
+				AFD328BA1EDF047D000ADC7F /* Gerrit-CheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD328A01EDF047D000ADC7F /* Gerrit-Check */ = {
+			isa = PBXGroup;
+			children = (
+				AFD328A11EDF047D000ADC7F /* AppDelegate.swift */,
+				AFD328D01EDF49A9000ADC7F /* EventMonitor.swift */,
+				AFD328CC1EDF11B9000ADC7F /* ReviewsViewController.swift */,
+				AFD328D21EDF520D000ADC7F /* ReviewsModel.swift */,
+				AF096DDF1EE20A1E00785AA6 /* ReviewType.swift */,
+				AFD328CD1EDF11B9000ADC7F /* ReviewsViewController.xib */,
+				AFD328A31EDF047D000ADC7F /* ViewController.swift */,
+				AFD328A51EDF047D000ADC7F /* Assets.xcassets */,
+				AFD328A71EDF047D000ADC7F /* Main.storyboard */,
+				AFD328AA1EDF047D000ADC7F /* Info.plist */,
+			);
+			path = "Gerrit-Check";
+			sourceTree = "<group>";
+		};
+		AFD328B21EDF047D000ADC7F /* Gerrit-CheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD328B31EDF047D000ADC7F /* Gerrit_CheckTests.swift */,
+				AFD328B51EDF047D000ADC7F /* Info.plist */,
+			);
+			path = "Gerrit-CheckTests";
+			sourceTree = "<group>";
+		};
+		AFD328BD1EDF047D000ADC7F /* Gerrit-CheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD328BE1EDF047D000ADC7F /* Gerrit_CheckUITests.swift */,
+				AFD328C01EDF047D000ADC7F /* Info.plist */,
+			);
+			path = "Gerrit-CheckUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD3289D1EDF047D000ADC7F /* Gerrit-Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD328C31EDF047D000ADC7F /* Build configuration list for PBXNativeTarget "Gerrit-Check" */;
+			buildPhases = (
+				AFD3289A1EDF047D000ADC7F /* Sources */,
+				AFD3289B1EDF047D000ADC7F /* Frameworks */,
+				AFD3289C1EDF047D000ADC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gerrit-Check";
+			productName = "Gerrit-Check";
+			productReference = AFD3289E1EDF047D000ADC7F /* Gerrit-Check.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD328AE1EDF047D000ADC7F /* Gerrit-CheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD328C61EDF047D000ADC7F /* Build configuration list for PBXNativeTarget "Gerrit-CheckTests" */;
+			buildPhases = (
+				AFD328AB1EDF047D000ADC7F /* Sources */,
+				AFD328AC1EDF047D000ADC7F /* Frameworks */,
+				AFD328AD1EDF047D000ADC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD328B11EDF047D000ADC7F /* PBXTargetDependency */,
+			);
+			name = "Gerrit-CheckTests";
+			productName = "Gerrit-CheckTests";
+			productReference = AFD328AF1EDF047D000ADC7F /* Gerrit-CheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFD328B91EDF047D000ADC7F /* Gerrit-CheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD328C91EDF047D000ADC7F /* Build configuration list for PBXNativeTarget "Gerrit-CheckUITests" */;
+			buildPhases = (
+				AFD328B61EDF047D000ADC7F /* Sources */,
+				AFD328B71EDF047D000ADC7F /* Frameworks */,
+				AFD328B81EDF047D000ADC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD328BC1EDF047D000ADC7F /* PBXTargetDependency */,
+			);
+			name = "Gerrit-CheckUITests";
+			productName = "Gerrit-CheckUITests";
+			productReference = AFD328BA1EDF047D000ADC7F /* Gerrit-CheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD328961EDF047D000ADC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tim Mok";
+				TargetAttributes = {
+					AFD3289D1EDF047D000ADC7F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					AFD328AE1EDF047D000ADC7F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFD3289D1EDF047D000ADC7F;
+					};
+					AFD328B91EDF047D000ADC7F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFD3289D1EDF047D000ADC7F;
+					};
+				};
+			};
+			buildConfigurationList = AFD328991EDF047D000ADC7F /* Build configuration list for PBXProject "Gerrit-Check" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD328951EDF047D000ADC7F;
+			productRefGroup = AFD3289F1EDF047D000ADC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD3289D1EDF047D000ADC7F /* Gerrit-Check */,
+				AFD328AE1EDF047D000ADC7F /* Gerrit-CheckTests */,
+				AFD328B91EDF047D000ADC7F /* Gerrit-CheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD3289C1EDF047D000ADC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD328CF1EDF11B9000ADC7F /* ReviewsViewController.xib in Resources */,
+				AFD328A61EDF047D000ADC7F /* Assets.xcassets in Resources */,
+				AFD328A91EDF047D000ADC7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD328AD1EDF047D000ADC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD328B81EDF047D000ADC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD3289A1EDF047D000ADC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD328A41EDF047D000ADC7F /* ViewController.swift in Sources */,
+				AFD328CE1EDF11B9000ADC7F /* ReviewsViewController.swift in Sources */,
+				AFD328D31EDF520D000ADC7F /* ReviewsModel.swift in Sources */,
+				AF096DE01EE20A1E00785AA6 /* ReviewType.swift in Sources */,
+				AFD328A21EDF047D000ADC7F /* AppDelegate.swift in Sources */,
+				AFD328D11EDF49A9000ADC7F /* EventMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD328AB1EDF047D000ADC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD328B41EDF047D000ADC7F /* Gerrit_CheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD328B61EDF047D000ADC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD328BF1EDF047D000ADC7F /* Gerrit_CheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD328B11EDF047D000ADC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD3289D1EDF047D000ADC7F /* Gerrit-Check */;
+			targetProxy = AFD328B01EDF047D000ADC7F /* PBXContainerItemProxy */;
+		};
+		AFD328BC1EDF047D000ADC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD3289D1EDF047D000ADC7F /* Gerrit-Check */;
+			targetProxy = AFD328BB1EDF047D000ADC7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD328A71EDF047D000ADC7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD328A81EDF047D000ADC7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD328C11EDF047D000ADC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFD328C21EDF047D000ADC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AFD328C41EDF047D000ADC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gerrit-Check/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "klocwork.Gerrit-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AFD328C51EDF047D000ADC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gerrit-Check/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "klocwork.Gerrit-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AFD328C71EDF047D000ADC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gerrit-CheckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "klocwork.Gerrit-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gerrit-Check.app/Contents/MacOS/Gerrit-Check";
+			};
+			name = Debug;
+		};
+		AFD328C81EDF047D000ADC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gerrit-CheckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "klocwork.Gerrit-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gerrit-Check.app/Contents/MacOS/Gerrit-Check";
+			};
+			name = Release;
+		};
+		AFD328CA1EDF047D000ADC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gerrit-CheckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "klocwork.Gerrit-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Gerrit-Check";
+			};
+			name = Debug;
+		};
+		AFD328CB1EDF047D000ADC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gerrit-CheckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "klocwork.Gerrit-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Gerrit-Check";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD328991EDF047D000ADC7F /* Build configuration list for PBXProject "Gerrit-Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD328C11EDF047D000ADC7F /* Debug */,
+				AFD328C21EDF047D000ADC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD328C31EDF047D000ADC7F /* Build configuration list for PBXNativeTarget "Gerrit-Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD328C41EDF047D000ADC7F /* Debug */,
+				AFD328C51EDF047D000ADC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD328C61EDF047D000ADC7F /* Build configuration list for PBXNativeTarget "Gerrit-CheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD328C71EDF047D000ADC7F /* Debug */,
+				AFD328C81EDF047D000ADC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD328C91EDF047D000ADC7F /* Build configuration list for PBXNativeTarget "Gerrit-CheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD328CA1EDF047D000ADC7F /* Debug */,
+				AFD328CB1EDF047D000ADC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD328961EDF047D000ADC7F /* Project object */;
+}
